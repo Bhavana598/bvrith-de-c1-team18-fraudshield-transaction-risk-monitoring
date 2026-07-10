@@ -1,7 +1,7 @@
 # Problem Charter
 
 **Week:** 1  
-**Owner(s):** Manthena Bhavana 
+**Owner(s):** Manthena Bhavana, Satuluri Keerthana, E.Shivani
 **Project:** Fraud Sheils:Transaction risk monitoring
 
 ---
