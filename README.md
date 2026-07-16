@@ -6,8 +6,8 @@
 **Program:** ZENAIZ x BVRIT Hyderabad Data Engineering Internship Program  
 **Track:** Data Engineering  
 **Duration:** 12 Weeks  
-**Team:** [18]  
-**Students:** [Satuluri Keerthana], [Manthena Bhavana], [E.Shivani]  
+**Team:** 18  
+**Students:** Satuluri Keerthana, Manthena Bhavana, E.Shivani  
 **AI Teammate:** Used responsibly for explanation, debugging, review, and documentation support.
 
 ---
