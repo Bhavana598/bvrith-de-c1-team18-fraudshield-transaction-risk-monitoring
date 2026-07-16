@@ -1,4 +1,4 @@
-# [Fraud Sheild:Transaction risk monitoring]
+# Fraud Sheild:Transaction risk monitoring
 
 > **Student note:** Start with `00_START_HERE.md` and `00_TEMPLATE_INDEX.md`. The placeholder files inside this repo are the templates.
 
@@ -14,11 +14,14 @@
 
 ## 1. Project Summary
 
-Write 5–8 lines explaining the assigned project.
+A fully synthetic transaction-risk data product: transactions, accounts, merchants, risk rules, fraud flags,
+authorization decisions, and live transaction events. You will turn controlled financial-risk files into a trusted
+lakehouse pipeline and a decision dashboard, then prove every step on GitHub.
 
 Example structure:
 
-- **Domain:** [Urban Mobility / IPL Matchday / Weather / etc.]
+- **Domain:** Banking / finance risk analytics — fully synthetic and educational; no real customer,
+account, card, merchant, or bank data
 - **Core engineering problem:** [What raw data needs to become trusted insight?]
 - **Main pipeline:** Raw Sources → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation
 - **Final outcome:** GitHub repo, Databricks notebooks, Gold outputs, Power BI dashboard, streaming simulation, final demo.
