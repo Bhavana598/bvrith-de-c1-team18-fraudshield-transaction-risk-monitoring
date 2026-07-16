@@ -1,15 +1,15 @@
-# Week 01 Log — [Sprint Name]
+# Week 01 Log — Project framing + GitHub setup
 
 **Week:** 1  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Date range:** 10/7/2026 - 16/7/2026  
+**Team:** 18  
+**Project:** FraudShield-Transaction Risk Monitoring
 
 ---
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+Team repo created from template; Week 1 evidence committed
 
 ---
 
@@ -17,14 +17,14 @@ Write the goal for this week in 2–3 lines.
 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+| Project framing + GitHub setup | Manthena Bhavana, Satuluri Keerthana | Done | screenshot |
 
 ---
 
 ## 3. Key Decisions
 
-- [Decision 1]
-- [Decision 2]
+- Agreed to follow the Bronze → Silver → Data Quality → Gold → Power BI lakehouse architecture exactly as specified in the project brief.
+- Established a GitHub workflow with regular commits and documentation updates for every sprint.
 
 ---
 
@@ -32,15 +32,14 @@ Write the goal for this week in 2–3 lines.
 
 | Blocker | Impact | Help Needed |
 |---|---|---|
-| [Blocker] | [Impact] | [Help needed] |
+| Limited familiarity with Databricks and Spark SQL | May slow initial development | Follow tutorials and mentor guidance |
 
 ---
 
 ## 5. Evidence Added to GitHub
 
-- [File updated]
-- [Screenshot added]
-- [Notebook updated]
+- File updated
+- Screenshot added
 
 ---
 
@@ -48,10 +47,10 @@ Write the goal for this week in 2–3 lines.
 
 | Question | Response |
 |---|---|
-| Where AI helped | [Explain] |
-| What we changed after AI suggestion | [Explain] |
-| What we verified manually | [Explain] |
-| What we can explain without AI | [Explain] |
+| Where AI helped | AI assisted in understanding the project brief |
+| What we changed after AI suggestion | We modified the documentation |
+| What we verified manually | We manually reviewed the project brief, confirmed the technology stack, checked repository structure, and verified all GitHub commits before submission. |
+| What we can explain without AI | We can explain the project objective, stakeholder requirements, and the Week 1 sprint activities. |
 
 ---
 
