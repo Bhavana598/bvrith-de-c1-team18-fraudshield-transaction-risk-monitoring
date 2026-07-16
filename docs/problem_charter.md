@@ -8,7 +8,8 @@
 
 ## 1. Problem Context
 
-Explain the domain in simple language.
+Banking / finance risk analytics — fully synthetic and educational; no real customer,
+account, card, merchant, or bank data
 
 Prompts:
 
@@ -21,20 +22,20 @@ Prompts:
 
 ## 2. Engineering Problem
 
-Write the data engineering problem clearly.
-
-Example format:
-
-> The project must convert multiple raw source files into trusted Bronze, Silver, Data Quality, Gold, and dashboard-ready outputs using Databricks and Power BI.
-
----
+FraudShield-Transaction Risk Monitoring:
+A fully synthetic transaction-risk data product: transactions, accounts, merchants, risk rules, fraud flags,
+authorization decisions, and live transaction events. You will turn controlled financial-risk files into a trusted
+lakehouse pipeline and a decision dashboard, then prove every step on GitHub.
+The project convert multiple raw source files into trusted Bronze, Silver, Data Quality, Gold, and dashboard-ready outputs using Databricks and Power BI.
 
 ## 3. Users / Stakeholders
 
 | User / Stakeholder | What they need from the data |
 |---|---|
-| [Example: Operations Head] | [Example: View daily demand and service issues] |
-| [Example: Analyst] | [Example: Compare trends and investigate failures] |
+| Fraud Risk Manager | Identify which fraud rules, payment channels, merchant categories, and risk bands generate the highest number of flagged transactions to optimize fraud detection strategies and reduce false positives. |
+| Payments Operations Lead | Monitor approval, decline, and flagged transaction volumes across batch transaction files and live event streams to ensure operational consistency and quickly detect processing issues. |
+| Compliance / AML Analyst | Analyze suspicious transaction patterns by merchant category, customer/account segment, geographic region, and transaction amount band to support AML investigations and regulatory compliance. |
+| Live Authorization Desk | View a real-time dashboard of approved, declined, and flagged transactions, ensuring duplicate events are removed and authorization decisions are accurately reflected for immediate operational response. |
 
 ---
 
@@ -59,12 +60,13 @@ List what the team will not build.
 
 Examples:
 
-- No production application
-- No real customer data
-- No payment gateway integration
-- No copied internet project submission
-- No fake screenshots or unexplained AI-generated work
-
+- A banking app, payment gateway, or fraud-detection ML
+product
+- A use of real bank, card, account, customer, or merchant
+transaction data
+- Charts drawn directly from raw transaction exports
+- A big-reveal project that appears in Week 11
+- Unexplained AI-generated notebooks
 ---
 
 ## 6. Success Criteria
