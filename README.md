@@ -22,7 +22,7 @@ Example structure:
 
 - **Domain:** Banking / finance risk analytics — fully synthetic and educational; no real customer,
 account, card, merchant, or bank data
-- **Core engineering problem:** [What raw data needs to become trusted insight?]
+- **Core engineering problem:** Convert raw transaction data into trusted fraud-risk insights through data quality and analytics.
 - **Main pipeline:** Raw Sources → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation
 - **Final outcome:** GitHub repo, Databricks notebooks, Gold outputs, Power BI dashboard, streaming simulation, final demo.
 
