@@ -56,5 +56,5 @@ Team repo created from template; Week 1 evidence committed
 
 ## 7. Next Week Preparation
 
-- [Action]
-- [Action]
+- Design and generate synthetic transaction, account, merchant, and risk-rule datasets.
+- Create a data dictionary and define keys, relationships, and quality rules.
