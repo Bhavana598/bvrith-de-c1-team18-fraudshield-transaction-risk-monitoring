@@ -19,7 +19,7 @@ The goal of this week is to design the project dataset by documenting the source
 | Updated `docs/synthetic_data_assumptions.md` | Manthena Bhavana | Done | `docs/synthetic_data_assumptions.md` |
 | Updated `src/generate_synthetic_data.py` | Satuluri Keerthana | Done | `src/generate_synthetic_data.py` |
 | Added small raw sample files to `data_sample/raw/` | Satuluri Keerthana | Done | `data_sample/raw/` |
-| Reviewed dataset design and documented primary/foreign key relationships | Manthena Bhavana | Done | `docs/data_dictionary.md` |
+| Reviewed dataset design and documented primary/foreign key relationships | Manthena Bhavana, Satuluri Keerthana | Done | `docs/data_dictionary.md` |
 | Captured Week 2 evidence screenshots | Manthena Bhavana | Done | `week02_data_dictionary_completed.png`, `week02_raw_sample_files.png` |
 ---
 ## 3. Key Decisions
