@@ -15,11 +15,11 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | Area | Assumption |
 |---|---|
-| Geography / scope | [Example: Hyderabad and nearby regions] |
-| Time period | [Example: July to September 2026] |
-| Source systems | [Example: Two different operational feeds] |
-| Event types | [Example: booking, scan, alert, transaction] |
-| Reference data | [Example: zones, categories, products, venues] |
+| Geography / scope | Synthetic transactions across multiple cities in India |
+| Time period | January 2026 to June 2026 |
+| Source systems | Transaction system, Customer database, Merchant database, Device database, Fraud monitoring system |
+| Event types | Transaction, Login, Payment, Fraud Alert |
+| Reference data | Customers, Merchants, Devices, Fraud Cases |
 
 ---
 
@@ -27,10 +27,12 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | File | Approximate Rows | Reason |
 |---|---:|---|
-| `[source_file_1].csv` | [rows] | [reason] |
-| `[source_file_2].csv` | [rows] | [reason] |
-| `[reference_file].csv` | [rows] | [reason] |
-| `[streaming_events].json` | [rows] | [reason] |
+| transactions.csv | 50,000 | Large transaction dataset for analytics |
+| customers.csv | 10,000 | Customer master data |
+| merchants.csv | 2,000 | Merchant reference data |
+| devices.csv | 8,000 | Device information |
+| fraud_cases.csv | 1,000 | Fraud investigation records |
+| streaming_events.json | 20,000 | Simulated real-time transaction events |
 
 ---
 
@@ -38,11 +40,11 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | Issue Type | Approx. Share | Why Include It |
 |---|---:|---|
-| Duplicate IDs | 0.2%–0.5% | Tests uniqueness |
-| Missing values | 1%–3% | Tests completeness |
-| Invalid reference keys | 0.5%–1% | Tests referential integrity |
-| Negative / impossible values | 0.1%–0.5% | Tests range rules |
-| Timestamp inconsistencies | 0.1%–0.3% | Tests chronology |
+| Duplicate IDs | 0.3% | Test duplicate detection |
+| Missing Values | 2% | Test data completeness |
+| Invalid Reference Keys | 0.5% | Test referential integrity |
+| Invalid Transaction Amounts | 0.2% | Test validation rules |
+| Timestamp Inconsistencies | 0.2% | Test chronological validation |
 
 ---
 
