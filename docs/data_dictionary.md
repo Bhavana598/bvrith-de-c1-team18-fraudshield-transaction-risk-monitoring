@@ -61,7 +61,7 @@
 Final Silver table name:
 
 ```text
-silver_[project_specific_table_name]
+silver_transactions
 ```
 
 | Silver Field | Data Type | Source Mapping | Business Meaning |
