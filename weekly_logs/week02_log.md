@@ -34,7 +34,6 @@ The goal of this week is to design the project dataset by documenting the source
 | Blocker | Impact | Help Needed |
 |---|---|---|
 | Understanding the project-specific dataset structure and field mappings | May delay completion of the data dictionary and generator updates | Review the provided project documentation and data dictionary |
-| Sample data files not yet copied into `data_sample/raw/` | Week 2 deliverables remain incomplete | Copy the approved sample files from `github_safe_samples/data_sample/raw/` into the repository |
 
 ## 5. Evidence Added to GitHub
 
