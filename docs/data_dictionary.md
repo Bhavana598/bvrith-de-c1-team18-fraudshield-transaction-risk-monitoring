@@ -34,7 +34,7 @@
 
 ---
 
-## 3. Raw File Schema: `[source_file_2].csv`
+## 3. Raw File Schema: customers.csv
 
 | Field Name | Data Type | Required? | Example | Description |
 |---|---|---|---|---|
