@@ -64,9 +64,8 @@ Final Silver table name:
 silver_transactions
 ```
 
-| Silver Field | Data Type | Source Mapping | Business Meaning |
-|---|---|---|---|
-
+| Silver Field       | Data Type | Source Mapping                  | Business Meaning    |
+| ------------------ | --------- | ------------------------------- | ------------------- |
 | transaction_id     | string    | transactions.transaction_id     | Unique transaction  |
 | customer_id        | string    | transactions.customer_id        | Customer identifier |
 | merchant_id        | string    | transactions.merchant_id        | Merchant identifier |
