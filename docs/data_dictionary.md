@@ -16,12 +16,18 @@
 
 ---
 
-## 2. Raw File Schema: `[source_file_1].csv`
+## 2. Raw File Schema: transaction.csv
 
 | Field Name | Data Type | Required? | Example | Description |
 |---|---|---|---|---|
-| `source_id` | string | Yes | `SRC-0001` | Unique source record ID |
-| `[field_name]` | string | Yes/No | `[example]` | [description] |
+| transaction_id | string | Yes | TXN000001 | Unique transaction ID |
+| customer_id | string | Yes | CUST101 | Customer identifier |
+| merchant_id | string | Yes | MER205 | Merchant identifier |
+| device_id | string | Yes | DEV090 | Device identifier |
+| transaction_amount | decimal | Yes | 1520.75 | Transaction amount |
+| transaction_time | timestamp | Yes | 2026-07-03 10:30:00 | Transaction time |
+| payment_method | string | Yes | UPI` | Payment type |
+| fraud_label | integer | Yes | 0 | 0 = Genuine, 1 = Fraud |
 
 ---
 
@@ -37,7 +43,9 @@
 
 | Field Name | Data Type | Required? | Example | Description |
 |---|---|---|---|---|
-| `reference_id` | string | Yes | `REF-001` | Reference key |
+| merchant_id | string | Yes | MER205 | Merchant ID |
+| merchant_name | string | Yes | ABC Store | Merchant name |
+| category | string | Yes | Grocery | Merchant category |
 
 ---
 
@@ -61,6 +69,7 @@ silver_[project_specific_table_name]
 
 | Field Name | Data Type | Required? | Example | Description |
 |---|---|---|---|---|
-| `event_id` | string | Yes | `EVT-0001` | Unique event ID |
-| `event_timestamp` | timestamp | Yes | `2026-07-03T10:15:00+05:30` | Event time |
-| `event_type` | string | Yes | `[event type]` | Event category |
+| event_id | string | Yes | EVT-0001 | Eevent ID |
+| event_timestamp | timestamp | Yes | 2026-07-03T10:15:00+05:30 | Event timestamp |
+| transaction_id | string | Yes | TXN000001 | Related transaction |
+| event_type | string | Yes | TRANSACTION_CREATED | Event category |
