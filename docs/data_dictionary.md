@@ -9,7 +9,7 @@
 
 | File Name | Grain | Purpose | Approx. Rows | Notes |
 |---|---|---|---:|---|
-| `[source_file_1].csv` | One row per [entity/event] | [Purpose] | [rows] | [notes] |
+| transactions.csv | One row per transaction | stores all payment transaction | [rows] | [notes] |
 | `[source_file_2].csv` | One row per [entity/event] | [Purpose] | [rows] | [notes] |
 | `[reference_file].csv` | One row per [reference item] | [Purpose] | [rows] | [notes] |
 | `[streaming_events].json` | One row per event | Streaming simulation | [rows] | JSON event files |
