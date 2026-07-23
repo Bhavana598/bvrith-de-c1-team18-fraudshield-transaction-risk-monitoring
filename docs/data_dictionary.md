@@ -9,10 +9,13 @@
 
 | File Name | Grain | Purpose | Approx. Rows | Notes |
 |---|---|---|---:|---|
-| transactions.csv | One row per transaction | stores all payment transaction | [rows] | [notes] |
-| `[source_file_2].csv` | One row per [entity/event] | [Purpose] | [rows] | [notes] |
-| `[reference_file].csv` | One row per [reference item] | [Purpose] | [rows] | [notes] |
-| `[streaming_events].json` | One row per event | Streaming simulation | [rows] | JSON event files |
+| File Name             | Grain                     |                         
+| transactions.csv      | One row per transaction   | Stores all payment transactions |      ~50,000 | Main transaction dataset |
+| customers.csv         | One row per customer      |            Customer information |      ~10,000 | Linked by customer_id    |
+| merchants.csv         | One row per merchant      |            Merchant information |       ~2,000 | Linked by merchant_id    |
+| devices.csv           | One row per device        |                  Device details |       ~8,000 | Linked by device_id      |
+| fraud_cases.csv       | One row per fraud case    |     Fraud investigation records |       ~1,000 | Linked by transaction_id |
+| streaming_events.json | One event per transaction |      Simulated streaming events |     Variable | JSON event stream        |
 
 ---
 
@@ -35,7 +38,11 @@
 
 | Field Name | Data Type | Required? | Example | Description |
 |---|---|---|---|---|
-| `source_id` | string | Yes | `SRC2-0001` | Unique source record ID |
+| customer_id   | string    | Yes       | CUST101      | Primary key   |
+| customer_name | string    | Yes       | Rahul Sharma | Customer name |
+| city          | string    | No        | Hyderabad    | Customer city |
+| age           | integer   | No        | 28           | Customer age  |
+
 
 ---
 
@@ -59,9 +66,15 @@ silver_[project_specific_table_name]
 
 | Silver Field | Data Type | Source Mapping | Business Meaning |
 |---|---|---|---|
-| `record_id` | string | `[source field]` | Canonical record ID |
-| `event_date` | date | `[source field]` | Date used for analytics |
-| `[silver_field]` | [type] | [mapping] | [meaning] |
+
+| transaction_id     | string    | transactions.transaction_id     | Unique transaction  |
+| customer_id        | string    | transactions.customer_id        | Customer identifier |
+| merchant_id        | string    | transactions.merchant_id        | Merchant identifier |
+| device_id          | string    | transactions.device_id          | Device used         |
+| transaction_amount | decimal   | transactions.transaction_amount | Payment amount      |
+| transaction_date   | date      | transaction_time                | Analytics date      |
+| fraud_label        | integer   | fraud_label                     | Fraud indicator     |
+
 
 ---
 
