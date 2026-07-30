@@ -1,23 +1,31 @@
-# Week 03 Log — [Sprint Name]
+# Week 03 Log — Data Exploration and Validation
 
 **Week:** 3  
 **Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Team:** Team 18  
+**Project:** Fraud Shield: Transaction Risk Monitoring
 
 ---
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+The goal of Week 3 was to explore the Fraud Shield source datasets in Databricks using PySpark and Spark SQL. We focused on understanding the schemas, validating data quality, checking relationships between datasets, and preparing the data for the next stage of the data engineering pipeline.
 
 ---
 
 ## 2. Work Completed
 
-| Task | Owner | Status | Evidence |
-|---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+| Task                                                               | Owner   | Status | Evidence                              |
+| ------------------------------------------------------------------ | ------- | ------ | ------------------------------------- |
+| Created the required Databricks schema                             | Keerthana Satuluri | Done   | Schema creation screenshot |     
+| Uploaded project source files to Databricks Volume                 | Keerthana Satuluri | Done   | Data loaded screenshot     |
+| Loaded and explored the transaction Parquet dataset                | Keerthana Satuluri | Done   | Transaction Output screenshot|
+| Created temporary SQL views for data exploration                   | Keerthana Satuluri | Done   | Databricks notebook        |
+| Performed Spark SQL exploration on transaction data                | Keerthana Satuluri | Done   | SQL output screenshot      |
+| Checked missing/null values in important transaction fields        | Keerthana Satuluri | Done   | Missing-values screenshot  |
+| Validated relationships between transaction and reference datasets | Keerthana Satuluri | Done   | Relationship-check screenshot  |
+| Updated the Week-3 data exploration notebook                       | Keerthana Satuluri | Done  | `notebooks/01_data_exploration.ipynb` |
+
 
 ---
 
