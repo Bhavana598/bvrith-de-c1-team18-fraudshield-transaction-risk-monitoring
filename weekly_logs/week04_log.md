@@ -1,9 +1,9 @@
-# Week 04 Log — [Sprint Name]
+# Week 04 Log — Bronze Ingestion
 
 **Week:** 4  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Date range:** 31/7/2026  
+**Team:** 18 
+**Project:** 
 
 ---
 
