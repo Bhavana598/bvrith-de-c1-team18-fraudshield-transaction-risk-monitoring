@@ -17,9 +17,9 @@ The goal of Week 3 was to explore the Fraud Shield source datasets in Databricks
 
 | Task                                                               | Owner   | Status | Evidence                              |
 | ------------------------------------------------------------------ | ------- | ------ | ------------------------------------- |
-| Created the required Databricks schema                             | Keerthana Satuluri | Done   | Schema creation screenshot |     
-| Uploaded project source files to Databricks Volume                 | Keerthana Satuluri | Done   | Data loaded screenshot     |
-| Loaded and explored the transaction Parquet dataset                | Keerthana Satuluri | Done   | Transaction Output screenshot|
+| Created the required Databricks schema                             | Keerthana Satuluri, Manthena Bhavana | Done   | Schema creation screenshot |     
+| Uploaded project source files to Databricks Volume                 | Keerthana Satuluri, Manthena Bhavana | Done   | Data loaded screenshot     |
+| Loaded and explored the transaction Parquet dataset                | Keerthana Satuluri, Manthena Bhavana | Done   | Transaction Output screenshot|
 | Created temporary SQL views for data exploration                   | Keerthana Satuluri | Done   | Databricks notebook        |
 | Performed Spark SQL exploration on transaction data                | Keerthana Satuluri | Done   | SQL output screenshot      |
 | Checked missing/null values in important transaction fields        | Keerthana Satuluri | Done   | Missing-values screenshot  |
