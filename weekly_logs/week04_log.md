@@ -17,10 +17,10 @@ Implement the Bronze layer of the data pipeline by loading raw source files into
 
 | Task | Owner | Status | Evidence |
 |------|-------|--------|----------|
-| Loaded source files into Databricks Volume | Manthena Bhavana, Satuluri Keerthana | Done | 02_bronze_ingestion.ipynb |
+| Loaded source files into Databricks Volume | Manthena Bhavana | Done | 02_bronze_ingestion.ipynb |
 | Created Bronze tables for all source files | Manthena Bhavana, Satuluri Keerthana | Done | 02_bronze_ingestion.ipynb |
-| Added ingestion metadata columns | Manthena Bhavana, Satuluri Keerthana | Done | Bronze tables |
-| Verified source and Bronze record counts | Manthena Bhavana, Satuluri Keerthana | Done | week04_bronze_counts.png |
+| Added ingestion metadata columns | Manthena Bhavana | Done | Bronze tables |
+| Verified source and Bronze record counts | Manthena Bhavana | Done | week04_bronze_counts.png |
 | Captured Bronze table screenshots | Manthena Bhavana | Done | week04_bronze_table_created.png |
 
 ---
