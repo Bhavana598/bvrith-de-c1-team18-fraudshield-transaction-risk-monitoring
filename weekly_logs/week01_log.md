@@ -15,9 +15,14 @@ Team repo created from template; Week 1 evidence committed
 
 ## 2. Work Completed
 
+
 | Task | Owner | Status | Evidence |
-|---|---|---|---|
-| Project framing + GitHub setup | Manthena Bhavana, Satuluri Keerthana | Done | screenshot |
+|------|-------|--------|----------|
+| Created team repository from ZENAIZ template | Manthena Bhavana, Satuluri Keerthana | Done | GitHub repository |
+| Updated README with project details | Manthena Bhavana | Done | README.md |
+| Updated problem charter | Manthena Bhavana | Done | docs/problem_charter.md |
+| Created Week 01 log | Manthena Bhavana | Done | weekly_logs/week01_log.md |
+| Uploaded Week 01 screenshots | Manthena Bhavana | Done | screenshots/week01/ |
 
 ---
 
