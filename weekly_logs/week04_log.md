@@ -3,7 +3,7 @@
 **Week:** 4  
 **Date range:** 31/7/2026  
 **Team:** 18 
-**Project:** TRANSACTION RISK MONITORING
+**Project:** Fraud Shield: Transaction Risk Monitoring
 
 ---
 
