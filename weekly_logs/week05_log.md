@@ -29,8 +29,8 @@ Silver Standardization - Clean standardized Silver tables
 
 ## 3. Key Decisions
 
-- [Decision 1]
-- [Decision 2]
+- Used Bronze tables as the source for all Silver transformations.
+- Created separate Silver tables for customers, customer accounts, devices, fraud cases, merchants, and transactions.
 
 ---
 
