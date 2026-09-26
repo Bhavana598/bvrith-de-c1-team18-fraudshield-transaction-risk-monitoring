@@ -1,7 +1,7 @@
 # Week 08 Log — Power BI Draft
 
 **Week:** 8  
-**Date range:** September 21–September 26, 2026  
+**Date range:** September 11–September 18, 2026  
 **Team:** C1-Team18  
 **Project:** FraudShield — Transaction Risk Monitoring
 
