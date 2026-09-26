@@ -2,7 +2,7 @@
 
 **Week:** 8  
 **Date range:** September 11–September 18, 2026  
-**Team:** C1-Team18  
+**Team:** Team18  
 **Project:** FraudShield — Transaction Risk Monitoring
 
 ---
