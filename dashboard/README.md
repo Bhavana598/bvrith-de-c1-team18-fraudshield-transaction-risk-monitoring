@@ -1,12 +1,14 @@
 # Power BI Dashboard Folder
 
-Save the final Power BI file here.
+This folder contains the final Power BI dashboard for the FraudShield
+Transaction Risk Monitoring project.
+
+## Final Power BI File
 
 Expected file:
 
 ```text
 dashboard/powerbi_dashboard.pbix
-```
 
 Rules:
 
