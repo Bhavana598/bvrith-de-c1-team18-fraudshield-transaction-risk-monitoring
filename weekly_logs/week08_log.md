@@ -1,15 +1,18 @@
-# Week 08 Log — [Sprint Name]
+# Week 08 Log — Power BI Draft
 
 **Week:** 8  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Date range:** September 21–September 26, 2026  
+**Team:** C1-Team18  
+**Project:** FraudShield — Transaction Risk Monitoring
 
 ---
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+Validate the approved Gold outputs, export/connect the required Gold
+tables to Power BI, build the first working dashboard, reconcile
+important dashboard values with the Gold tables, and record review
+evidence.
 
 ---
 
@@ -17,14 +20,32 @@ Write the goal for this week in 2–3 lines.
 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+| Validate approved Gold tables | Team | Done | `notebooks/05_gold_aggregations.ipynb` |
+| Prepare Gold-to-Power-BI export | Team | Done | `notebooks/06_powerbi_export.ipynb` |
+| Export selected Gold tables | Team | Done | Gold CSV exports / Unity Catalog Volume |
+| Import Gold outputs into Power BI | Team | Done | `screenshots/week08_gold_connection.png` |
+| Build KPI cards | Team | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Daily Transaction Trend | Team | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Merchant Risk Tier comparison | Team | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Daily Fraud Cases visual | Team | Done | `screenshots/week08_powerbi_draft.png` |
+| Add Transaction Date slicer | Team | Done | `screenshots/week08_powerbi_draft.png` |
+| Reconcile Total Transactions | Team | Done | Gold result: 278,000; Power BI: 278K |
+| Reconcile Total Fraud Cases | Team | Done | Gold result: 4,117; Power BI: 4K |
+| Prepare dashboard documentation | Team | Done | `dashboard/README.md`, `docs/dashboard_insights.md` |
 
 ---
 
 ## 3. Key Decisions
 
-- [Decision 1]
-- [Decision 2]
+- Power BI uses approved Gold outputs only.
+- The selected Gold tables were kept at their existing grains.
+- Unnecessary relationships between independent Gold summary tables
+  were not created.
+- The first dashboard was designed around transaction and fraud-risk
+  business questions rather than creating one visual for every Gold table.
+- KPI values were reconciled against their owning Gold tables.
+- Week 8 was kept within the first-working-dashboard scope; deeper
+  dashboard refinement and insight development are reserved for Week 9.
 
 ---
 
@@ -32,15 +53,20 @@ Write the goal for this week in 2–3 lines.
 
 | Blocker | Impact | Help Needed |
 |---|---|---|
-| [Blocker] | [Impact] | [Help needed] |
+| Public DBFS/FileStore export location was disabled in the Databricks workspace. | The original `/FileStore` export path could not be used. | Unity Catalog Volume was used for the controlled Power BI export. |
+| Power BI initially displayed Total Transactions as approximately 15K instead of the Gold total. | KPI reconciliation did not initially match. | The Power BI Gold export/source was checked and corrected; the final Power BI value reconciles to 278,000. |
 
 ---
 
 ## 5. Evidence Added to GitHub
 
-- [File updated]
-- [Screenshot added]
-- [Notebook updated]
+- `notebooks/06_powerbi_export.ipynb`
+- `dashboard/powerbi_dashboard.pbix`
+- `dashboard/README.md`
+- `docs/dashboard_insights.md`
+- `screenshots/week08_gold_connection.png`
+- `screenshots/week08_powerbi_draft.png`
+- `weekly_logs/week08_log.md`
 
 ---
 
@@ -48,14 +74,17 @@ Write the goal for this week in 2–3 lines.
 
 | Question | Response |
 |---|---|
-| Where AI helped | [Explain] |
-| What we changed after AI suggestion | [Explain] |
-| What we verified manually | [Explain] |
-| What we can explain without AI | [Explain] |
+| Where AI helped | AI assisted with the Week 8 export notebook structure, SQL export troubleshooting, Power BI dashboard planning, field-to-visual mapping, documentation and troubleshooting. |
+| What we changed after AI suggestion | The team adapted the export approach to the Databricks environment, used a Unity Catalog Volume instead of the disabled Public DBFS/FileStore path, selected the required Gold tables, and adjusted the Power BI dashboard based on the actual Gold outputs. |
+| What we verified manually | Gold table availability, export results, Power BI Gold tables, dashboard fields, KPI values, Total Transactions reconciliation, Total Fraud Cases reconciliation, dashboard visuals, and screenshots were checked manually. |
+| What we can explain without AI | We can explain the Gold-to-Power-BI flow, the purpose and grain of the selected Gold tables, the dashboard visuals, KPI calculations, Power BI source rule, reconciliation process, and the reason separate Gold summary tables were not unnecessarily related. |
 
 ---
 
 ## 7. Next Week Preparation
 
-- [Action]
-- [Action]
+- Continue using the same working Power BI model.
+- Refine dashboard visual hierarchy, labels, filters and usability.
+- Develop clearer insight notes from the validated Gold outputs.
+- Reconcile final/filtered dashboard presentations where required.
+- Keep the Power BI source connected to the governed Gold hand-off.
