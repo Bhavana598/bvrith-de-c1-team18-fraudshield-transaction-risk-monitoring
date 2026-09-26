@@ -20,18 +20,18 @@ evidence.
 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
-| Validate approved Gold tables | Team | Done | `notebooks/05_gold_aggregations.ipynb` |
-| Prepare Gold-to-Power-BI export | Team | Done | `notebooks/06_powerbi_export.ipynb` |
-| Export selected Gold tables | Team | Done | Gold CSV exports / Unity Catalog Volume |
-| Import Gold outputs into Power BI | Team | Done | `screenshots/week08_gold_connection.png` |
-| Build KPI cards | Team | Done | `screenshots/week08_powerbi_draft.png` |
-| Build Daily Transaction Trend | Team | Done | `screenshots/week08_powerbi_draft.png` |
-| Build Merchant Risk Tier comparison | Team | Done | `screenshots/week08_powerbi_draft.png` |
-| Build Daily Fraud Cases visual | Team | Done | `screenshots/week08_powerbi_draft.png` |
-| Add Transaction Date slicer | Team | Done | `screenshots/week08_powerbi_draft.png` |
-| Reconcile Total Transactions | Team | Done | Gold result: 278,000; Power BI: 278K |
-| Reconcile Total Fraud Cases | Team | Done | Gold result: 4,117; Power BI: 4K |
-| Prepare dashboard documentation | Team | Done | `dashboard/README.md`, `docs/dashboard_insights.md` |
+| Validate approved Gold tables | Keerthana Satuluri | Done | `notebooks/05_gold_aggregations.ipynb` |
+| Prepare Gold-to-Power-BI export | Keerthana Satuluri | Done | `notebooks/06_powerbi_export.ipynb` |
+| Export selected Gold tables | Keerthana Satuluri | Done | Gold CSV exports / Unity Catalog Volume |
+| Import Gold outputs into Power BI | Keerthana Satuluri | Done | `screenshots/week08_gold_connection.png` |
+| Build KPI cards | Keerthana Satuluri | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Daily Transaction Trend | Keerthana Satuluri | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Merchant Risk Tier comparison | Keerthana Satuluri | Done | `screenshots/week08_powerbi_draft.png` |
+| Build Daily Fraud Cases visual | Keerthana Satuluri | Done | `screenshots/week08_powerbi_draft.png` |
+| Add Transaction Date slicer | Keerthana Satuluri | Done | `screenshots/week08_powerbi_draft.png` |
+| Reconcile Total Transactions | Keerthana Satuluri | Done | Gold result: 278,000; Power BI: 278K |
+| Reconcile Total Fraud Cases | Keerthana Satuluri | Done | Gold result: 4,117; Power BI: 4K |
+| Prepare dashboard documentation | Keerthana Satuluri | Done | `dashboard/README.md`, `docs/dashboard_insights.md` |
 
 ---
 
